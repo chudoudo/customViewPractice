@@ -7,6 +7,10 @@ android {
     namespace = "com.example.customviewpractice"
     compileSdk = 33
 
+    buildFeatures {
+        viewBinding = true
+    }
+
     defaultConfig {
         applicationId = "com.example.customviewpractice"
         minSdk = 24
