@@ -6,8 +6,10 @@
     android:layout_height="match_parent">
     
     <com.example.customviewpractice.view.RocketDetailView
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        app:rdv_title="@string/content_description"
+        app:rdv_subtitle="@string/content_description"
         />
 
 </LinearLayout>

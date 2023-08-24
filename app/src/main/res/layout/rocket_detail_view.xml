@@ -16,16 +16,18 @@
             android:id="@+id/rocket_detail_title_tv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="18sp"
+            android:fontFamily="@font/roboto"
             android:textColor="@color/white"
+            android:textSize="18sp"
             tools:text="222.6"
-            tools:textColor="@color/black"/>
+            tools:textColor="@color/black" />
 
         <TextView
             android:id="@+id/rocket_detail_subtitle_tv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="16sp"
+            android:fontFamily="@font/roboto"
             android:layout_marginTop="4dp"
             android:textColor="@color/white"
             tools:textColor="@color/black"

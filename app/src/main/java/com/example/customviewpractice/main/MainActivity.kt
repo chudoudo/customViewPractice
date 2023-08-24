@@ -1,9 +1,8 @@
-package com.example.customviewpractice
+package com.example.customviewpractice.main
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.customviewpractice.databinding.ActivityMainBinding
-import com.example.customviewpractice.view.RocketDetailView
+import com.example.customviewpractice.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
